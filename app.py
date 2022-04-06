@@ -63,4 +63,11 @@ def pagina_no_encontrada(error):
 def mostrar_jason(nombre):
     valores = {'nombre': nombre, 'metodo_http': request.method }
     return jsonify (valores)
+
+def hola(saludo):
+    saludo = 'Hola'
+    return (saludo)
   
+def hola(adios):
+    adios = 'Adios'
+    return (adios)
